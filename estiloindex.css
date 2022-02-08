@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  background-image: url('https://4.bp.blogspot.com/-WvMz4r2Xz2Y/WibsqzgUMvI/AAAAAAAAQ7c/WY3aaE5hpSsq-NjdNjo-b662_4QjVla-gCLcBGAs/s1600/213375220daf45ce24cdd73b82b1493b.gif');
+  background-repeat:no-repeat;
+  background-position-x:center;
+  background-position-y:center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  font-family:sans-serif;
+}
+h1{
+  margin:auto;
+  margin-top:80px;
+  font-family: 'Galada', cursive;
+  color:#fff;
+  font-size:50px;
+}
+.button{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  text-decoration:none;
+  background:#fff;
+  color:black;
+  padding:15px 35px;
+  font-size:20px;
+  font-family: 'Galada', cursive;
+}
+#si{
+  left:30%;
+  transform:translateY(-50%) translateX(-20%);
+}
+#no{
+  left:70%;
+  transform:translateY(-50%) translateX(-80%);
+}
+.botonmusic{
+	position:absolute;
+}
+.audioB{
+	position: absolute;
+	top:80%;
+	left:40%;
+}
+.plis{
+	background-image: url('https://i.pinimg.com/236x/d1/f2/52/d1f25285c4da2cd40e72fb89e5f01e74--adorable-kittens-adorable-animals.jpg');
+  position: absolute;
+top: 180px; left: 45%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
